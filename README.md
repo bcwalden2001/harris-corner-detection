@@ -1,6 +1,6 @@
 ## Summary
 
-This program uses the Harris Corner Algorithm in order to detect corners within an image. 
+This program uses the Harris Corner algorithm to detect corners within an image. 
 
 Red circles are used in visualization to indicate where exactly those corners are on the image. 
 Corners are simply where two edges meet and correspond to intense changes in pixels in both 
@@ -12,11 +12,11 @@ the X and Y directions.
 <img width="605" height="562" alt="image" src="https://github.com/user-attachments/assets/5ef1543e-bea9-4ee6-9d4f-86a59455f7b0" />
 
 ## Performance on Different Image Types
-Harris Corners were best detected in high contrast and simpler images [See Figures 7 and 11] 
+Harris Corners were best detected in high contrast images [See Figures 7 and 11] 
 with clear distinctions between corners, flat surface, and edges. It becomes difficult 
 to distinguish corners in low contrast, blurry, or images with lots of color and 
 textures (such as landscapes with lots of foliage and crowds of people) [See Figures 8, 9, 10 
-and 12]. 
+and 12].
 
 ## Demo Images
 
